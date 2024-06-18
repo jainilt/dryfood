@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 50%;
+    margin: 0 3rem;
+}
+
+.navbar-expand-lg .navbar-nav {
+    font-weight: 600;
+}
+
+.hero_bg {
+    /* max-width: 100%; */
+    height: 36rem;
+    width: 100%;
+}
+
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    gap: 15px;
+}
+
+.btn-white-bg {
+    background-color: white !important;
+}
+
+a.btn.btn-lg.bg-white.text-dark {
+    width: 50%;
+}
+
+.raisin-btn {
+    width: 22% !important;
+    background: #16BA0A !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dates-section {
+    order: 1;
+}
+
+.wcof {
+    text-align: center;
+}
+
+.small-text {
+    font-weight: 700;
+}
+
+.description {
+    display: flex;
+}
+
+.description {
+    display: flex;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    width: 15rem;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+
+.bg-image {
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.text-white {
+    position: relative;
+    z-index: 2;
+}
+.wcofp {
+    max-width: 41%;
+    margin: 0 auto;
+    text-transform: capitalize;
+    line-height: 25px;
+}
+.submit-btn{
+    background: #16BA0A !important;
+    width: 25%;
+    margin: 0 auto;   
+}
+.submit-btn{
+    width: 22% !important;
+    background: #16BA0A !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.footer-nav li{
+    list-style: none;
+    text-align: start;
+}
+.footer-nav h5{
+    text-align: start;
+}
+.footer-sec{
+    margin: 0 auto;
+}
+.footer-sec li{
+    list-style: none;
+}
+.ql,.cu{
+    font-weight: 700;
+}
+.social {
+    width: 10%;
+    display: flex ;
+    gap: 2rem;
+}
+.col.flex-grow-1.order-2.order-md-1.Kissmiss>p,.khajur>p,.description,.wcofp,.footer-sec{
+    font-family: "Montserrat", sans-serif;
+}
+a,.navbar,.hero-text,.Kissmiss,.khajur,.small-text,.wcofh1{
+    font-family: "Poppins", sans-serif;
+}
+@media (max-width < 767.98px) {
+    .raisin-btn,.submit-btn{
+        width: auto;
+    }
+  }
+  
